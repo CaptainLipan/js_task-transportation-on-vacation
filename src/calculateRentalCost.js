@@ -12,7 +12,7 @@ function calculateRentalCost(days) {
   } else if (days >= 3 && days < 7) {
     return finalPrice - 20;
   } else {
-    return days * dailyRent - 50;
+    return finalPrice - 50;
   }
 }
 
